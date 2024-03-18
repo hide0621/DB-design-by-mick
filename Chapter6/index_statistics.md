@@ -36,8 +36,8 @@ B-treeインデックスは欲しいデータに対する**木構造**になっ�
 
 インデックスが貼られたカラムは**ソート化**されるので、DBMS内部でソート化される処理(**集計関数**、**集合関数**、**OLAP関数**、**group by**、**order by**等)を高速化させることができる。
 
-・集計関数...count, sum, avg, max, min
+- 集計関数...count, sum, avg, max, min
 
-・集合関数...union, intersect, except
+- 集合関数...union, intersect, except
 
-・OLAP関数...rank, row_numberなど
+- OLAP関数...rank, row_numberなど
